@@ -3,6 +3,7 @@
 /*
  *PDO SQL class for secure database connection
  *Provides transaction support
+ *Created by Lochemem Bruno Michael
 */
 
 class Connect 
