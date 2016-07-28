@@ -118,3 +118,7 @@ class Validate
 		}
 	}
 }
+
+/*
+ *Designed by Lochemem Bruno Michael
+*/
