@@ -4,7 +4,9 @@ class Images
 {
 	
 	/*
-		
+	 *Image upload handler class
+	 *Uploads single image files to the nominee directory in the img folder in the app directory
+	 *Designed by Lochemem Bruno Michael
 	*/
 	
 	private $url = "http://localhost/campusawards/app/img/nominees/";
