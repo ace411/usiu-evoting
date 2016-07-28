@@ -32,3 +32,7 @@ class CSRF
     	return false;
     }
 }
+
+/*
+ Designed and developed by Lochemem Bruno Michael
+*/
