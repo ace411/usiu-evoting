@@ -3,6 +3,7 @@
 /*
  *AuthLogin to authenticate users
  *Provides brute force security	
+ *Designed by Lochemem Bruno Michael
 */
 
 class AuthLogin
