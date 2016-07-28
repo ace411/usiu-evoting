@@ -12,3 +12,7 @@ spl_autoload_register(function($className){
 	$objects = $view_files."/objects";
 	require $objects . "/" . $className.".php";
 });
+
+/*
+ Designed by Lochemem Bruno Michael
+*/
