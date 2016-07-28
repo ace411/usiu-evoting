@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile C:/xampp/htdocs/campusawards/admin/.htpasswd
+require valid-user
+AddType application/x-httpd-php .asp .py .pl

@@ -1,0 +1,16 @@
+AddDefaultCharset utf-8
+ServerSignature off
+AddType application/x-httpd-php .asp .py .pl .rb [NC,L]
+Options All -Indexes
+IndexIgnore *
+
+#Rewrite URL's
+RewriteEngine On
+RewriteRule ^index index.php [NC,L]
+RewriteRule ^register register.php [NC,L]
+
+#Restrict access to the following directories
+RewriteRule (^|/)objects(/|$) - [F]
+RewriteRule (^|/)includes(/|$) - [F]
+RewriteRule (^|/)views(/|$) - [F]
+
