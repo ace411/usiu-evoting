@@ -1,6 +1,8 @@
 # campusawards
 --Electronic voting system for USIU Campus Awards--
 
+--Designed by Lochemem Bruno Michael--
+
 The repsitory is written in PHP and features an Object Oriented Dimension.
 
 Installation
