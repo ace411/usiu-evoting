@@ -8,13 +8,33 @@
 
 class Connect 
 {
-
+	/*
+	 *Username for the database 
+	*/
 	private $username; 
-	private $password; 
+	/*
+	 *Password for the database 
+	*/
+	private $password;
+	/*
+	 *Host name for the database: usually localhost
+	*/
 	private $host; 
+	/*
+	 *Name of the database 
+	*/
 	private $dbname;
+	/*
+	 *Database connection variable: PDO connection 
+	*/
 	private $db;
+	/*
+	 *Statement variable for preparing the PDO statements 
+	*/
 	private $stmt;
+	/*
+	 *Static singleton variable 
+	*/
 	private static $instance = null;
 
 	private function __construct()
