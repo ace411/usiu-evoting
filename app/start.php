@@ -1,8 +1,5 @@
 <?php
 
-/*
-	Base URL for the application
-*/
 $base_url = htmlspecialchars('');
 
 $dir_specific = htmlspecialchars('../../');
